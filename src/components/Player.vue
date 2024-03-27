@@ -6,7 +6,7 @@ const video = ref(null)
 const url = ref("https://fl3.lanta.me:8443/121358")
 const token = ref("8f30fc67f68ad45736731f506b132f958c602b8a-a42fbd07119abae9db209f7da788e4b1-1711548677-1711537877")
 const date = ref(null)
-
+// test
 watch([url,token],() => {
   console.log('22')
   player.value?.onDestroy()
